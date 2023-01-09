@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 from config import *
 import numpy as np
+from sklearn.ensemble import RandomForestClassifier
 
 # load models
 model = pickle.load(open('final_pickle_rfc.pkl', 'rb'))
